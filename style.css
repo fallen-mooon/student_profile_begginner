@@ -1,0 +1,93 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f4f6f9;
+}
+
+/* Header */
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f1c40f;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 60px;
+    background: #3498db;
+    color: white;
+}
+
+.hero button {
+    padding: 10px 20px;
+    border: none;
+    background: white;
+    color: #3498db;
+    cursor: pointer;
+}
+
+/* Courses */
+.courses {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0px 0px 10px gray;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Forms */
+.form-section {
+    text-align: center;
+    padding: 40px;
+}
+
+input, textarea {
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #2c3e50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #34495e;
+}
+
+/*Footer*/
+footer {
+    text-align: center;
+    background: #2c3e50;
+    color: white;
+    padding: 10px;
+}
